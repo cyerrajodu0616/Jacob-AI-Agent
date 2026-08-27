@@ -37,7 +37,7 @@ completeness/tone class, none a leak or fabrication.
 2. **No direct data access.** The agent process holds no DB/platform driver —
    knowledge and live state come only through the two MCP subprocesses.
 3. **The live-state allowlist.** Only ~35 vetted memApp fields are ever read
-   (see `INTERNAL-511801-FLOW.md`); applicant PII, underwriting data, vendor
+   (see ``); applicant PII, underwriting data, vendor
    fields are never touched, and every surfaced string passes a PII scrub.
    Declined apps suppress the whole issuance block. (`evals.run appstate`, 31/31)
 4. **Per-conversation arcId scope.** A chat bound to an application can look up
