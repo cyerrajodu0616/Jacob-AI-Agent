@@ -1,0 +1,2 @@
+If PDF is not very large, we can use caching and no need of vectors / retriving 
+New API should only give ready-made info, no raw memapp

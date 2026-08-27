@@ -1,0 +1,6 @@
+# Agent — the SDK drives the `claude` CLI (subscription login).
+claude-agent-sdk>=0.2.144
+# RAG — Postgres + pgvector store and PDF ingestion.
+psycopg[binary]>=3.2
+pypdf>=5.0
+certifi>=2024.0
